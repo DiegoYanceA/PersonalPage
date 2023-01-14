@@ -1,0 +1,352 @@
+.deleteUnderlined:link, .deleteUnderlined:visited, .deleteUnderlined:active{
+    text-decoration:none;
+}
+
+.count-channel{
+  font-size: 15px;
+  font-weight: bold;
+  color:white
+}
+
+.v-icon.notranslate.mdi.mdi-chevron-down.theme--light{
+  color:white;
+}
+
+.hideScrollY::-webkit-scrollbar { 
+  /* solo oculta su visualizacion */
+  display: none;
+}
+
+.messageRandom::-webkit-scrollbar {
+  display: none  !important;
+}
+
+/* .containerWeb {
+  height: 50vh !important;
+} */
+
+.subTitleServer{
+  font-size: 2.5em;
+}
+
+.containerMain{
+  height: 100vh !important;
+}
+
+@media (max-width: 600px) {
+  /* .containerWeb {
+    height: 100% !important;;
+  } */
+  .titleServer{
+    font-size: 2.5em !important;
+  }
+
+  img.emoji{
+    width:auto !important;
+    height:30px !important;
+  }
+
+  .subTitleServer{
+    font-size: 1.5em !important;
+  }
+
+  .containerMain{
+    height: 100% !important;
+  }
+
+  .areaSpam{
+    font-size:32px !important;
+  }
+}
+
+.btn-yt {
+    background: #c4302b;
+    color: white !important; 
+    width: 80px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.wordServer{
+    color: white;
+    text-shadow: 2px 2px 10px black
+}
+
+.parallaxPresent.v-parallax img{
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.textRandomClient .v-counter.theme--light{
+  color:white !important; 
+}
+
+.areaSpam{
+  font-size:50px;
+}
+
+img.emoji{
+  width:auto ; 
+  height:50px ; 
+}
+
+.titleServer{
+  font-size: 5.5em;
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+/* body {
+    background-color: #300808;
+    margin: 0;
+  } */
+  
+  .fire {
+    font-size: 24px;
+    filter: blur(0.02em);
+    -webkit-filter: blur(0.02em);
+    margin: 3em auto 0 auto;
+    position: relative;
+    width: 10em;
+    height: 12em;
+  }
+  
+  .particle {
+    animation: rise 1s ease-in infinite;
+    background-image: radial-gradient(#ff5000 20%, rgba(255, 80, 0, 0) 70%);
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 5em;
+    height: 5em;
+  }
+  .particle:nth-of-type(1) {
+    animation-delay: 0.095315965s;
+    left: calc((100% - 5em) * 0);
+  }
+  .particle:nth-of-type(2) {
+    animation-delay: 0.4991476521s;
+    left: calc((100% - 5em) * 0.02);
+  }
+  .particle:nth-of-type(3) {
+    animation-delay: 0.5131501018s;
+    left: calc((100% - 5em) * 0.04);
+  }
+  .particle:nth-of-type(4) {
+    animation-delay: 0.8071058238s;
+    left: calc((100% - 5em) * 0.06);
+  }
+  .particle:nth-of-type(5) {
+    animation-delay: 0.3370096003s;
+    left: calc((100% - 5em) * 0.08);
+  }
+  .particle:nth-of-type(6) {
+    animation-delay: 0.0022068756s;
+    left: calc((100% - 5em) * 0.1);
+  }
+  .particle:nth-of-type(7) {
+    animation-delay: 0.4056358941s;
+    left: calc((100% - 5em) * 0.12);
+  }
+  .particle:nth-of-type(8) {
+    animation-delay: 0.4534770041s;
+    left: calc((100% - 5em) * 0.14);
+  }
+  .particle:nth-of-type(9) {
+    animation-delay: 0.1782880456s;
+    left: calc((100% - 5em) * 0.16);
+  }
+  .particle:nth-of-type(10) {
+    animation-delay: 0.131368717s;
+    left: calc((100% - 5em) * 0.18);
+  }
+  .particle:nth-of-type(11) {
+    animation-delay: 0.5344897587s;
+    left: calc((100% - 5em) * 0.2);
+  }
+  .particle:nth-of-type(12) {
+    animation-delay: 0.9651580479s;
+    left: calc((100% - 5em) * 0.22);
+  }
+  .particle:nth-of-type(13) {
+    animation-delay: 0.7722516778s;
+    left: calc((100% - 5em) * 0.24);
+  }
+  .particle:nth-of-type(14) {
+    animation-delay: 0.5354860152s;
+    left: calc((100% - 5em) * 0.26);
+  }
+  .particle:nth-of-type(15) {
+    animation-delay: 0.2088822989s;
+    left: calc((100% - 5em) * 0.28);
+  }
+  .particle:nth-of-type(16) {
+    animation-delay: 0.5009411976s;
+    left: calc((100% - 5em) * 0.3);
+  }
+  .particle:nth-of-type(17) {
+    animation-delay: 0.0032012355s;
+    left: calc((100% - 5em) * 0.32);
+  }
+  .particle:nth-of-type(18) {
+    animation-delay: 0.4125220295s;
+    left: calc((100% - 5em) * 0.34);
+  }
+  .particle:nth-of-type(19) {
+    animation-delay: 0.2088687569s;
+    left: calc((100% - 5em) * 0.36);
+  }
+  .particle:nth-of-type(20) {
+    animation-delay: 0.6620580686s;
+    left: calc((100% - 5em) * 0.38);
+  }
+  .particle:nth-of-type(21) {
+    animation-delay: 0.8988156163s;
+    left: calc((100% - 5em) * 0.4);
+  }
+  .particle:nth-of-type(22) {
+    animation-delay: 0.6607305406s;
+    left: calc((100% - 5em) * 0.42);
+  }
+  .particle:nth-of-type(23) {
+    animation-delay: 0.4505955498s;
+    left: calc((100% - 5em) * 0.44);
+  }
+  .particle:nth-of-type(24) {
+    animation-delay: 0.290027486s;
+    left: calc((100% - 5em) * 0.46);
+  }
+  .particle:nth-of-type(25) {
+    animation-delay: 0.0995025452s;
+    left: calc((100% - 5em) * 0.48);
+  }
+  .particle:nth-of-type(26) {
+    animation-delay: 0.6782949618s;
+    left: calc((100% - 5em) * 0.5);
+  }
+  .particle:nth-of-type(27) {
+    animation-delay: 0.5497118665s;
+    left: calc((100% - 5em) * 0.52);
+  }
+  .particle:nth-of-type(28) {
+    animation-delay: 0.6736769111s;
+    left: calc((100% - 5em) * 0.54);
+  }
+  .particle:nth-of-type(29) {
+    animation-delay: 0.6962181065s;
+    left: calc((100% - 5em) * 0.56);
+  }
+  .particle:nth-of-type(30) {
+    animation-delay: 0.9813378498s;
+    left: calc((100% - 5em) * 0.58);
+  }
+  .particle:nth-of-type(31) {
+    animation-delay: 0.2327149139s;
+    left: calc((100% - 5em) * 0.6);
+  }
+  .particle:nth-of-type(32) {
+    animation-delay: 0.0774287225s;
+    left: calc((100% - 5em) * 0.62);
+  }
+  .particle:nth-of-type(33) {
+    animation-delay: 0.9394812899s;
+    left: calc((100% - 5em) * 0.64);
+  }
+  .particle:nth-of-type(34) {
+    animation-delay: 0.2874476964s;
+    left: calc((100% - 5em) * 0.66);
+  }
+  .particle:nth-of-type(35) {
+    animation-delay: 0.8797340825s;
+    left: calc((100% - 5em) * 0.68);
+  }
+  .particle:nth-of-type(36) {
+    animation-delay: 0.9509155124s;
+    left: calc((100% - 5em) * 0.7);
+  }
+  .particle:nth-of-type(37) {
+    animation-delay: 0.200238727s;
+    left: calc((100% - 5em) * 0.72);
+  }
+  .particle:nth-of-type(38) {
+    animation-delay: 0.3233085437s;
+    left: calc((100% - 5em) * 0.74);
+  }
+  .particle:nth-of-type(39) {
+    animation-delay: 0.5403027169s;
+    left: calc((100% - 5em) * 0.76);
+  }
+  .particle:nth-of-type(40) {
+    animation-delay: 0.0669155364s;
+    left: calc((100% - 5em) * 0.78);
+  }
+  .particle:nth-of-type(41) {
+    animation-delay: 0.5783458811s;
+    left: calc((100% - 5em) * 0.8);
+  }
+  .particle:nth-of-type(42) {
+    animation-delay: 0.4126216152s;
+    left: calc((100% - 5em) * 0.82);
+  }
+  .particle:nth-of-type(43) {
+    animation-delay: 0.8616957465s;
+    left: calc((100% - 5em) * 0.84);
+  }
+  .particle:nth-of-type(44) {
+    animation-delay: 0.0055552566s;
+    left: calc((100% - 5em) * 0.86);
+  }
+  .particle:nth-of-type(45) {
+    animation-delay: 0.8817324885s;
+    left: calc((100% - 5em) * 0.88);
+  }
+  .particle:nth-of-type(46) {
+    animation-delay: 0.1741221277s;
+    left: calc((100% - 5em) * 0.9);
+  }
+  .particle:nth-of-type(47) {
+    animation-delay: 0.2422881959s;
+    left: calc((100% - 5em) * 0.92);
+  }
+  .particle:nth-of-type(48) {
+    animation-delay: 0.4518281948s;
+    left: calc((100% - 5em) * 0.94);
+  }
+  .particle:nth-of-type(49) {
+    animation-delay: 0.7324579466s;
+    left: calc((100% - 5em) * 0.96);
+  }
+  .particle:nth-of-type(50) {
+    animation-delay: 0.4915225414s;
+    left: calc((100% - 5em) * 0.98);
+  }
+  
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(0) scale(1);
+    }
+    25% {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10em) scale(0);
+    }
+  }
+
+
