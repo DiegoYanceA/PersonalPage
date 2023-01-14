@@ -1,4 +1,4 @@
-# Page Personal
+# Personal Page
 
 ## Project setup
 ```
